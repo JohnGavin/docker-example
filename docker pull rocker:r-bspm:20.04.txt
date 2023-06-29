@@ -1,0 +1,15 @@
+docker pull rocker/r-bspm:20.04
+
+docker ps
+docker image ls
+
+docker container prune
+
+docker image prune 
+
+docker rmi 
+
+docker run --platform linux/amd64 -ti --rm --privileged lcolling/brms R -q --no-save
+
+
+du -h -s ~/.vscode-remote/extensions
